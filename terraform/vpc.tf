@@ -1,8 +1,6 @@
 variable "name" {
   default = "terraform-example"
 }
-
-
 resource "alicloud_vpc" "default" {
   ipv6_isp    = "BGP"
   description = "test"
